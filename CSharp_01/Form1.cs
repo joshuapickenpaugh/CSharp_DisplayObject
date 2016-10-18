@@ -31,7 +31,7 @@ namespace CSharp_01
         private void btnClick_Click(object sender, EventArgs e)
         {
             dispOb.Name = txtName.Text;
-            lblDisplay.Text = dispOb.Name;
+            lblDisplay.Text = dispOb.ShowName();
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)

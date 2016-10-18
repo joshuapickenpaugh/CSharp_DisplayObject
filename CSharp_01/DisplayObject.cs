@@ -30,6 +30,10 @@ namespace CSharp_01
             }
         }
 
+        public string ShowName()
+        {
+            return Name;
+        }
 
         public void Clear()
         {
